@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'sqlite3', '--save' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 verbose stack Error: write EIO
+7 verbose stack     at _errnoException (util.js:1022:11)
+7 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+8 verbose cwd /home/hiweus/sources/semana11/aulas/backend
+9 error Linux 5.3.0-42-generic
+10 error argv "/usr/bin/node" "/usr/bin/npm" "install" "sqlite3" "--save"
+11 error node v8.10.0
+12 error npm  v3.5.2
+13 error code EIO
+14 error errno EIO
+15 error syscall write
+16 error write EIO
+17 error If you need help, you may report this error at:
+17 error     <https://github.com/npm/npm/issues>
+18 verbose exit [ 1, true ]
